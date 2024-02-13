@@ -1,0 +1,23 @@
+.language-extension {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.source-language, .destination-language {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.translate-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Translato",
+    "version": "1.0",
+    "description": "Translate text using a Python backend",
+    
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon32.png",
+      "48": "icon64.png",
+      "128": "icon128.png"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }
+  
